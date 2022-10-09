@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:form_validation/pages/sign_in_page.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:form_validation/pages/sign_in/bloc/sign_in_bloc.dart';
+import 'package:form_validation/pages/sign_in/sign_in_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +18,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const SignInPage(),
+      home: BlocProvider(
+        create: (context) => SignInBloc(),
+        child: SignInPage(),
+      ),
     );
   }
 }
