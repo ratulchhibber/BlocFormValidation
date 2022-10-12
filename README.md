@@ -1,16 +1,4 @@
-# form_validation
+# BlocFormValidation
+* Flutter | Bloc Pattern | Form validation
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Simulator Screen Recording - iPhone 12 Pro Max - 2022-10-12 at 13 35 53](https://user-images.githubusercontent.com/3801579/195287436-2c58e724-a0c5-4055-b199-8c29beb6454c.gif)
